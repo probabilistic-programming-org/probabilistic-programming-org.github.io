@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Resources on probabilistic-programming.org</title>
+    <link>https://probabilistic-programming.netlify.com/resources/</link>
+    <description>Recent content in Resources on probabilistic-programming.org</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 14 Nov 2020 21:52:15 -0500</lastBuildDate><atom:link href="https://probabilistic-programming.netlify.com/resources/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Design and Implementation of Probabilistic Programming Languages</title>
+      <link>https://probabilistic-programming.netlify.com/resources/dippl/</link>
+      <pubDate>Sat, 14 Nov 2020 21:52:15 -0500</pubDate>
+      
+      <guid>https://probabilistic-programming.netlify.com/resources/dippl/</guid>
+      <description>title: &amp;ldquo;Pyro&amp;rdquo;</description>
+    </item>
+    
+  </channel>
+</rss>

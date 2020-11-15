@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Researches on probabilistic-programming.org</title>
+    <link>https://probabilistic-programming.netlify.com/research/</link>
+    <description>Recent content in Researches on probabilistic-programming.org</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Nov 2020 11:50:55 -0500</lastBuildDate><atom:link href="https://probabilistic-programming.netlify.com/research/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Modeling Cognition with Probabilistic Programs</title>
+      <link>https://probabilistic-programming.netlify.com/research/stuhlmuller2015modelingcognition/</link>
+      <pubDate>Sun, 15 Nov 2020 11:50:55 -0500</pubDate>
+      
+      <guid>https://probabilistic-programming.netlify.com/research/stuhlmuller2015modelingcognition/</guid>
+      <description>Andreas Stuhlmüller. Modeling Cognition with Probabilistic Programs: Representations and Algorithms. PhD thesis, Massachusetts Institute of Technology, 6 2015.</description>
+    </item>
+    
+  </channel>
+</rss>

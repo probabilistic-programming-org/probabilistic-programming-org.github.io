@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Systems on probabilistic-programming.org</title>
+    <link>https://probabilistic-programming.netlify.com/systems/</link>
+    <description>Recent content in Systems on probabilistic-programming.org</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 14 Nov 2020 21:43:22 -0500</lastBuildDate><atom:link href="https://probabilistic-programming.netlify.com/systems/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Probtorch</title>
+      <link>https://probabilistic-programming.netlify.com/systems/probtorch/</link>
+      <pubDate>Sat, 14 Nov 2020 21:43:22 -0500</pubDate>
+      
+      <guid>https://probabilistic-programming.netlify.com/systems/probtorch/</guid>
+      <description>title: &amp;ldquo;Probtorch&amp;rdquo;</description>
+    </item>
+    
+    <item>
+      <title>Pyro</title>
+      <link>https://probabilistic-programming.netlify.com/systems/pyro/</link>
+      <pubDate>Thu, 14 Nov 2019 21:52:15 -0500</pubDate>
+      
+      <guid>https://probabilistic-programming.netlify.com/systems/pyro/</guid>
+      <description>title: &amp;ldquo;Pyro&amp;rdquo;</description>
+    </item>
+    
+  </channel>
+</rss>

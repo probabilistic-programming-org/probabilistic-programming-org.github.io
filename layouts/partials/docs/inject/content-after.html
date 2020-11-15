@@ -1,0 +1,38 @@
+{{ if .IsHome }}
+  <h2>Existing probabilistic programming systems</h2>
+
+  <ul>
+  {{ range (where .Site.RegularPages "Section" "systems").ByDate.Reverse }}
+    {{ if isset .Params "description" }}
+      <li>{{ .Title }}: {{ .Description }}</li>
+    {{ else }}
+      <li>{{ .Title }}</li>
+    {{ end }}
+
+  {{ end }}
+  </ul>
+
+  <h2>Tutorials and Books</h2>
+
+  <ul>
+  {{ range (where .Site.RegularPages "Section" "resources").ByDate.Reverse }}
+    {{ if isset .Params "description" }}
+      <li>{{ .Title }}: {{ .Description }}</li>
+    {{ else }}
+      <li>{{ .Title }}</li>
+    {{ end }}
+  {{ end }}
+  </ul>
+
+  <h2>Workshops</h2>
+
+  <ul>
+  {{ range (where .Site.RegularPages "Section" "workshops").ByDate.Reverse }}
+    {{ if isset .Params "description" }}
+      <li>{{ .Title }}: {{ .Description }}</li>
+    {{ else }}
+      <li>{{ .Title }}</li>
+    {{ end }}
+  {{ end }}
+  </ul>
+{{ end }}

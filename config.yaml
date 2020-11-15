@@ -30,12 +30,7 @@ markup:
       unsafe: true
   tableOfContents:
     startLevel: 1
-menu:
-  # before: []
-  after:
-    - name: "Github"
-      url: "https://github.com/stites/probabilistic-programming.org"
-      weight: 10
+
 
 params:
   # (Optional, default light) Sets color theme: light, dark or auto.
@@ -51,22 +46,22 @@ params:
   # /static/logo.png then the path would be 'logo.png'
   BookLogo: '/pcombinator.png'
 
-  # (Optional, default none) Set leaf bundle to render as side menu
-  # When not specified file structure and weights will be used
-  BookMenuBundle: '/menu'
+  # # (Optional, default none) Set leaf bundle to render as side menu
+  # # When not specified file structure and weights will be used
+  # BookMenuBundle: '/menu'
 
   # (Optional, default docs) Specify section of content to render as menu
   # You can also set value to "*" to render all sections to menu
-  BookSection: 'systems'
+  BookSection: '*'
 
   # Set source repository location.
   # Used for 'Last Modified' and 'Edit this page' links.
   BookRepo: 'https://github.com/stites/probabilistic-programming.org'
 
-# # Enable 'Edit this page' links for 'doc' page type.
-# # Disabled by default. Uncomment to enable. Requires 'BookRepo' param.
-# # Path must point to the site directory.
-# BookEditPath: 'edit/master/exampleSite'
+  # Enable 'Edit this page' links for 'doc' page type.
+  # Disabled by default. Uncomment to enable. Requires 'BookRepo' param.
+  # Path must point to the site directory.
+  BookEditPath: 'edit/master/content'
 
   # (Optional, default January 2, 2006) Configure the date format used on the pages
   # - In git information

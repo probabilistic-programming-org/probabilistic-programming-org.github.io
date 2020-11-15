@@ -29,10 +29,3 @@ We believe that the probabilistic programming language approach within AI has th
 *Please see our [collection of research articles on probabilistic programming](/research)*
 
 A growing body of literature studies probabilistic programming from an array of perspectives.  The individual project pages linked below often contain lists of publications, although we aim to collect these in our own master list as well.  A related but distinct body of work is that of <a href="https://web.archive.org/web/20141221190829/http://en.wikipedia.org/wiki/Approximate_Bayesian_computation" class="external text" title="http://en.wikipedia.org/wiki/Approximate_Bayesian_computation">Approximate Bayesian Computation (ABC)</a>, which focuses on likelihood-free methods, developed originally to tackle statistical queries  in population genetics but now applied more broadly.  The website for the <a href="https://web.archive.org/web/20141221190829/http://www.i-like.org.uk/index.html" class="external text" title="http://www.i-like.org.uk/index.html">i-Like research programme</a> links to a number of very interesting articles.  Another related area of research is <a href="https://web.archive.org/web/20141221190829/http://en.wikipedia.org/wiki/Statistical_relational_learning" class="external text" title="http://en.wikipedia.org/wiki/Statistical_relational_learning">Statistical Relational Learning</a>, which is in general interested in distributions on structured spaces (e.g., models of first order languages) where there may be uncertainty in the number and types of objects.
-
-<h2>Existing probabilistic programming systems</h2>
-
-{{ range where .Site.Pages "Section" "systems" }}
-   {{ .Title }}
-{{ end }}
-
